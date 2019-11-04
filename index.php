@@ -4,8 +4,6 @@
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 	require("includes/session.php");  ?>
-	
-
 	<?php  require("includes/mainConnection.php");  ?>
 		<?php  require("includes/logIn.php");  ?>
 
@@ -28,7 +26,6 @@ error_reporting(E_ALL);
         <div class="row h-100">
             <div class="col col-12 col-xs-12 col-sm-12 col-md-12  col-lg-3  col-xl-2" id="navCol">
                 <nav class="navbar navbar-light purple lighten-4 mb-3 navbar-inverse navbar-expand-lg navbar-expand-xl mainNav h-100 align-items-start">
-
 
                     <button class="navbar-toggler alwaysShowHam purple darken-3 order-lg-2 align-top" type="button" data-toggle="collapse"
                             data-target="#hamList" id="MainHamMenu" aria-controls="navbarSupportedContent41" aria-expanded="false"
@@ -60,8 +57,6 @@ error_reporting(E_ALL);
 
                 </nav>
             </div>
-
-
   
             <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-9 col-xl-10 mh-100">
 
@@ -104,9 +99,6 @@ error_reporting(E_ALL);
 									<button type="submit"  id="doSearch" name="doSearch" value="yes" class="btn btn-primary"><i class="fas fa-search text-grey"
 										   aria-hidden="true"></i></button>
 
-								
-
-										
 									</span>
 								</div>
 							</div>
